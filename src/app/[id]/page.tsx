@@ -1,7 +1,7 @@
 import { Suspense } from "react";
 import DeviceDetails from "./DeviceDetails";
 
-export default async function Page({ params }: { params: { id: string } }) {
+export default async function Page({ params }: { params: { id: number } }) {
   return (
     <main>
       <div className="flex min-h-[100dvh] flex-col items-center justify-center gap-4">
